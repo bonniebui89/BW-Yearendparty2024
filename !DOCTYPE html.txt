@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiệp Mời Tất Niên 2025</title>
+    <!-- Liên kết đến các font chữ -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #A3D8F4, #E4F0FB); /* Nền xanh dương nhạt và trắng */
+            color: black;
+            text-align: center;
+        }
+
+        header {
+            background-color: #3498db;  /* Màu xanh dương đậm cho header */
+            color: white;
+            padding: 16px;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family: 'Great Vibes', serif;
+            color: white;
+            animation: slideIn 1s ease-out;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-family: 'Playfair Display', serif;
+            color: white;
+            margin: 20px 0;
+            animation: slideIn 1s ease-out;
+        }
+
+        .invitation-info {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            animation: slideFromLeft 2s ease-out;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button {
+            padding: 12px 25px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 10px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-yes {
+            background-color: #28a745; /* Màu xanh lá cây nhẹ */
+            color: white;
+        }
+
+        .button-yes:hover {
+            background-color: #218838; /* Xanh lá cây đậm khi hover */
+        }
+
+        .button-no {
+            background-color: #e74a3b; /* Màu đỏ nhẹ */
+            color: white;
+        }
+
+        .button-no:hover {
+            background-color: #c0392b; /* Đỏ đậm khi hover */
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 30px;
+            color: #6c757d; /* Màu xám trung tính cho footer */
+            font-weight: bold;
+            animation: slideIn 1s ease-out;
+        }
+
+        /* Hiệu ứng slide cho các phần chữ */
+        @keyframes slideIn {
+            0% {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Hiệu ứng chữ chạy từ trái qua phải */
+        @keyframes slideFromLeft {
+            0% {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h2>CÔNG TY TNHH BELLWETHER ELECTRONICS (VIỆT NAM)</h2>
+        <h1>Thiệp Mời Tất Niên 2024</h1>
+    </header>
+
+    <!-- Nội dung thiệp mời -->
+    <div class="invitation-info">
+        <p><strong>Kính mời toàn thể CBCNV tham dự</strong></p>
+        <p><strong>Thời gian:</strong> 15:00, ngày 17/01/2025</p>
+        <p><strong>Địa điểm:</strong> Tầng 2, Nhà hàng Ecogarden, Phố Nối, Yên Mỹ, Hưng Yên</p>
+
+        <!-- Nút xác nhận tham gia -->
+        <div class="button-container">
+            <a href="https://example.com/confirm?status=yes" class="button button-yes">Tôi đã tham gia</a>
+            <a href="https://example.com/confirm?status=no" class="button button-no">Tôi không tham gia</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Mừng Xuân Tân Tỵ 2025 !</p> 
+    </footer>
+
+</body>
+</html>
